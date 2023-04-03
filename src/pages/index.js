@@ -4,6 +4,7 @@ import Layout from './components/Layout'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/d1.jpeg'
 import AnimatedText from './components/AnimatedText'
+import Link from 'next/link'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -23,9 +24,13 @@ export default function Home() {
           </div>
           <div className='w-1/2 flex flex-col items-center self-center'>
             <AnimatedText text='Software Engineer' className='!text-6xl !text-left'/>
-            <p>
+            <p className='my-4 text-base font-medium'>
           Dominic Mena was born and raised in El, Paso TX - A lifelong learner, he recieved his B.A. in Philosophy from Arizona State and went on to work for DoorDash in it's start-up days - scaling up multiple facets of the company for 5+ years.  When not researching new methods for code; Playing music, going for runs, reading and spending time with my girlfriend are favorite pastimes.
         </p>
+        <div>
+          <Link href='/dummy.pdf' target="_blank">Resume</Link>
+          <Link href='mailto:mena.dominic@gmail.com' target='_blank'>Contact</Link>
+        </div>
           </div>
         </div>
        </Layout>
