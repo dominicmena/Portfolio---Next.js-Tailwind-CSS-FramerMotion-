@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mont: ['var(--font-mont)', ...fontFamily.sans]
+        serif: ['var(--font-serif)', ...fontFamily.serif]
       },
       colors:{
         dark: "#1b1b1b",

@@ -5,7 +5,8 @@ import Image from 'next/image'
 import profilePic from '../../public/images/profile/d1.jpeg'
 import AnimatedText from './components/AnimatedText'
 import Link from 'next/link'
-
+import { LinkArrow } from './components/Icons'
+import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -34,12 +35,14 @@ export default function Home() {
           border=2 border-solid border-transparent hover:border-dark
           '
           download={true}
-          >Resume <LinkArrow 
+          >Resume <LinkArrow  className={'w-6 ml-1'}/>
           </Link>
-          <Link href='mailto:mena.dominic@gmail.com' target={'_blank'}>Contact</Link>
+          <Link href='mailto:mena.dominic@gmail.com' target={'_blank'}
+          className='ml-4 text-lg font-medium capitalize text-dark underline'>Contact</Link>
         </div>
           </div>
         </div>
+       <Footer/>
        </Layout>
       </main>
     </>
