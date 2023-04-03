@@ -27,9 +27,16 @@ export default function Home() {
             <p className='my-4 text-base font-medium'>
           Dominic Mena was born and raised in El, Paso TX - A lifelong learner, he recieved his B.A. in Philosophy from Arizona State and went on to work for DoorDash in it's start-up days - scaling up multiple facets of the company for 5+ years.  When not researching new methods for code; Playing music, going for runs, reading and spending time with my girlfriend are favorite pastimes.
         </p>
-        <div>
-          <Link href='/dummy.pdf' target="_blank">Resume</Link>
-          <Link href='mailto:mena.dominic@gmail.com' target='_blank'>Contact</Link>
+        <div className='flex items-center self-start mt-2'>
+          <Link href='/dummy.pdf' target={'_blank'}
+          className='flex items-center bg-dark text-light p-2.5 px-6
+          rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
+          border=2 border-solid border-transparent hover:border-dark
+          '
+          download={true}
+          >Resume <LinkArrow 
+          </Link>
+          <Link href='mailto:mena.dominic@gmail.com' target={'_blank'}>Contact</Link>
         </div>
           </div>
         </div>
