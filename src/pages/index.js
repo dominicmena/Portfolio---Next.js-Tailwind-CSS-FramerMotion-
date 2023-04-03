@@ -7,6 +7,7 @@ import AnimatedText from './components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from './components/Icons'
 import Footer from './components/Footer'
+import HireMe from './components/HireMe'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -44,6 +45,7 @@ export default function Home() {
         </div>
        <Footer/>
        </Layout>
+       <HireMe/>
       </main>
     </>
   )
