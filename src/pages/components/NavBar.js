@@ -2,9 +2,10 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react'
-import { GitIcon } from './Icons';
+import { GitIcon, PythonIcon } from './Icons';
 import Logo from './Logo';
 import { LinkedInIcon } from './Icons';
+import {motion} from 'framer-motion'
 
 
 
@@ -30,13 +31,13 @@ const NavBar = () => {
                 <CustomLink href='/contact'title='Contact' className='ml-4'/>
             </nav>
            
-            <nav>
-                <Link href='/' target={"_blank"}>
+            <nav className='flex items-center justify-center flex-wrap'>
+                <motion.a href='https://github.com/dominicmena' target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mr-3">
                     <GitIcon/>
-                </Link>
-                <Link href='/' target={"_blank"}>
+                </motion.a>
+                <motion.a href='https://www.linkedin.com/in/dominic-mena/' target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className ="w-6 mr-3">
                     <LinkedInIcon/>
-                </Link>
+                </motion.a>
             </nav>
             <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
             <Logo/>
