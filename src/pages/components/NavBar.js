@@ -2,7 +2,9 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react'
+import GitIcon from './Icons';
 import Logo from './Logo';
+
 
 const CustomLink =({href, title, className=''}) => {
     const router = useRouter()
@@ -27,7 +29,9 @@ const NavBar = () => {
             </nav>
            
             <nav>
-                <Link href='/' target={"_blank"}>T</Link>
+                <Link href='/' target={"_blank"}>
+                    <GitIcon/>
+                </Link>
                 <Link href='/' target={"_blank"}>T</Link>
                 <Link href='/' target={"_blank"}>T</Link>
                 <Link href='/' target={"_blank"}>T</Link>
