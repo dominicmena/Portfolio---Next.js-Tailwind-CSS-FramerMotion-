@@ -22,7 +22,7 @@ export default function Home() {
             <Image src={profilePic} alt='DominicMena' className='w-auto h-full'/>
           </div>
           <div className='w-1/2 flex flex-col items-center self-center'>
-            <AnimatedText text='Software Engineer' className='!text-6xl'/>
+            <AnimatedText text='Software Engineer' className='!text-6xl !text-left'/>
             <p>
           Dominic Mena was born and raised in El, Paso TX - A lifelong learner, he recieved his B.A. in Philosophy from Arizona State and went on to work for DoorDash in it's start-up days - scaling up multiple facets of the company for 5+ years.  When not researching new methods for code; Playing music, going for runs, reading and spending time with my girlfriend are favorite pastimes.
         </p>
