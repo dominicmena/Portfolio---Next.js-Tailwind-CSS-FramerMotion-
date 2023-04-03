@@ -32,10 +32,10 @@ const NavBar = () => {
             </nav>
            
             <nav className='flex items-center justify-center flex-wrap'>
-                <motion.a href='https://github.com/dominicmena' target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mr-3">
+                <motion.a href='https://github.com/dominicmena' target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mx-3">
                     <GitIcon/>
                 </motion.a>
-                <motion.a href='https://www.linkedin.com/in/dominic-mena/' target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className ="w-6 mr-3">
+                <motion.a href='https://www.linkedin.com/in/dominic-mena/' target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className ="w-6 ml-3">
                     <LinkedInIcon/>
                 </motion.a>
             </nav>
