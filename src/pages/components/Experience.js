@@ -3,10 +3,12 @@ import React from "react";
 import { useScroll } from "framer-motion";
 import { useRef } from "react";
 import { motion } from "framer-motion";
+import LiIcon from "./Liicon";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
   return (
     <li className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between">
+        <LiIcon/>
       <div>
         <h3 className="capitalize font-bold text-2xl">
           {position}&nbsp;
