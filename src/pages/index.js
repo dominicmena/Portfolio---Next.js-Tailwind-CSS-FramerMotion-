@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Layout from './components/Layout'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/d1.jpeg'
+import bracesImg from '../../public/images/svgs/braces.svg'
 import AnimatedText from './components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from './components/Icons'
@@ -46,6 +47,9 @@ export default function Home() {
        <Footer/>
        </Layout>
        <HireMe/>
+       <div className='absolute right-8 bottom-8 inline-block w-24'>
+        <Image src={bracesImg} alt='DominicMena' className='w-full h-auto'/>
+       </div>
       </main>
     </>
   )
