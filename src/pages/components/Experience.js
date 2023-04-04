@@ -31,8 +31,7 @@ const Experience = () => {
   const ref = useRef(null);
 
   const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start end", "center start"],
+    target: ref
   });
   return (
     <div className="my-64">
@@ -41,9 +40,9 @@ const Experience = () => {
       </h2>
 
       <div ref={ref} className="w-[75%] mx-auto relative">
-        
+
         <motion.div
-          style={{ scaleY: scrollYProgress }}
+          style={{scaleY: scrollYProgress}}
           className="absolute left-8 top-0 w-[4px] h-full bg-dark origin-top"
         />
 
