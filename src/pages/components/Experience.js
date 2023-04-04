@@ -31,7 +31,8 @@ const Experience = () => {
   const ref = useRef(null);
 
   const { scrollYProgress } = useScroll({
-    target: ref
+    target: ref,
+    offset: ["start start", "end end"]
   });
   return (
     <div className="my-64">
