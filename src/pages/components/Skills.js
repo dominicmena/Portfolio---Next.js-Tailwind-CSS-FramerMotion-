@@ -29,13 +29,15 @@ const Skills = () => {
         <Skill name='HTML' x='-20vw' y="2vw"/>
         <Skill name='Javascript' x='-5vw' y="-10vw"/>
         <Skill name='ReactJS' x='15vw' y="-12vw"/>
-        <Skill name='Strategy' x='0vw' y="17vw"/>
+        <Skill name='Strategy' x='0vw' y="18vw"/>
         <Skill name='Web Design' x='0vw' y="-20vw"/>
         <Skill name='NextJS' x='-30vw' y="-15vw"/>
         <Skill name='Operations' x='32vw' y="-5vw"/>
         <Skill name='Django' x='-35vw' y="-4vw"/>
         <Skill name='Python' x='-15vw' y="-15vw"/>
         <Skill name='PostgreSQL' x='15vw' y="7vw"/>
+        <Skill name='Figma' x='27vw' y="-17vw"/>
+        <Skill name='Tailwind CSS' x='30vw' y="12vw"/>
         <Skill name='Project Management' x='-28vw' y="10vw"/>
       </div>
     </>

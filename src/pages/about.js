@@ -17,7 +17,7 @@ const About = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Always learning, always creating, always improving."
-            className="!mb-2 !text-lg text-left"
+            className="!mb-2 !text-lg text-center"
           />
           <div className="grid w-full grid-cols-6 gap-16 items-center">
             <div className="p-20 col-span-3 flex flex-col items-start justify-start">
