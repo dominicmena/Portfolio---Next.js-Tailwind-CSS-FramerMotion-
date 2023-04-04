@@ -19,7 +19,7 @@ const LiIcon = ({reference}) => {
                     pathLength: scrollYProgress
                 }}
                 />
-                <circle cx='75' cy='50' r='10' className="stroke-1 fill-primary"/>
+                <circle cx='75' cy='50' r='10' className="animate-pulse stroke-1 fill-primary"/>
             </svg>
         </figure>
      );
