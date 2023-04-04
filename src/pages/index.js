@@ -52,7 +52,6 @@ export default function Home() {
                 REST API, PostgreSQL & more. Committed to creative
                 problem-solving, clear communication, & meticulous attention to
                 detail.
-                {/* Dominic Mena was born and raised in El, Paso TX - A lifelong learner, he recieved his B.A. in Philosophy from Arizona State and went on to work for DoorDash in it's start-up days - scaling up multiple facets of the company for 5+ years.  When not building new coding projects; Writing music, running, & reading are favorite pastimes. */}
               </p>
               <div className="flex items-center self-start mt-2">
                 <Link
