@@ -9,7 +9,7 @@ const { default: Head } = require("next/head");
 
 const About = () => {
   return (
-    <>
+    <> 
       <Head>
         <title>Dominic Mena | About Page</title> 
         <meta name="description" content="any description" />
