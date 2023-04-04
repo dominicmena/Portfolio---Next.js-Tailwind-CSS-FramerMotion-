@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Dominic Mena | About Page</title>
+        <title>Dominic Mena | About Page</title> 
         <meta name="description" content="any description" />
       </Head>
       <main className="flex w-full flex-col items-center justify-center">
