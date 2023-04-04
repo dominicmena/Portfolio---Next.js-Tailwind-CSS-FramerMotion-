@@ -3,6 +3,7 @@ import Layout from "./components/Layout";
 import profilePic from '../../public/images/profile/IMG_3565.jpg'
 import Image from "next/image";
 import Skills from './components/Skills'
+import Experience from "./components/Experience";
 
 const { default: Head } = require("next/head");
 
@@ -39,6 +40,7 @@ const About = () => {
             </div>
           </div>
           <Skills/>
+          <Experience/>
         </Layout>
       </main>
     </>
