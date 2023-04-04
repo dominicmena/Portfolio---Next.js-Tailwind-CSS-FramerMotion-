@@ -3,7 +3,13 @@ import { Inter } from 'next/font/google'
 import Layout from './components/Layout'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/d1.jpeg'
-import bracesImg from '../../public/images/svgs/braces.svg'
+import pythonImg from '../../public/images/svgs/python-fill.svg'
+import jsImg from '../../public/images/svgs/javascript-fill.svg'
+import htmlImg from '../../public/images/svgs/logo-html5.svg'
+import cssImg from '../../public/images/svgs/logo-css3.svg'
+import reactImg from '../../public/images/svgs/react-fill.svg'
+import mongoImg from '../../public/images/svgs/mongodb.svg'
+import nextImg from '../../public/images/svgs/next-js.svg'
 import AnimatedText from './components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from './components/Icons'
@@ -21,7 +27,7 @@ export default function Home() {
       </Head>
       <main className='flex items-center text-dark w-full min-h-screen'>
        <Layout className='pt-0'>
-        <div className='flex items-center justify-between w-full'>
+        <div className='flex items-center justify-between w-full p-20'>
           <div className='w-1/2'>
             <Image src={profilePic} alt='DominicMena' className='w-auto h-full'/>
           </div>
@@ -42,14 +48,20 @@ export default function Home() {
           <Link href='mailto:mena.dominic@gmail.com' target={'_blank'}
           className='ml-4 text-lg font-medium capitalize text-dark underline'>Contact</Link>
         </div>
+       <div className='relative right-8 top-20 inline-block w-12 flex flex-row justify-between'>
+        <Image src={jsImg} alt='DominicMena' className='w-full h-auto'/>
+        <Image src={pythonImg} alt='DominicMena' className='w-full h-auto'/>
+        <Image src={htmlImg} alt='DominicMena' className='w-full h-auto'/>
+        <Image src={cssImg} alt='DominicMena' className='w-full h-auto'/>
+        <Image src={mongoImg} alt='DominicMena' className='w-full h-auto'/>
+        <Image src={reactImg} alt='DominicMena' className='w-full h-auto'/>
+        <Image src={nextImg} alt='DominicMena' className='w-full h-auto'/>
+       </div>
           </div>
         </div>
        <Footer/>
        </Layout>
        <HireMe/>
-       <div className='absolute right-8 bottom-8 inline-block w-24'>
-        <Image src={bracesImg} alt='DominicMena' className='w-full h-auto'/>
-       </div>
       </main>
     </>
   )
