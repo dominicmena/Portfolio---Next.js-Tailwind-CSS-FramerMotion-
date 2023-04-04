@@ -20,7 +20,7 @@ const About = () => {
             className="!mb-2 !text-lg text-left"
           />
           <div className="grid w-full grid-cols-6 gap-16 items-center">
-            <div className="col-span-3 flex flex-col items-start justify-start">
+            <div className="p-20 col-span-3 flex flex-col items-start justify-start">
               <h2 className="mb-1 mt-4 text-lg font-bold uppercase text-dark/75">
                 Biography:
               </h2>
