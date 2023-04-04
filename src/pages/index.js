@@ -42,20 +42,19 @@ export default function Home() {
           rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
           border=2 border-solid border-transparent hover:border-dark
           '
-          download={true}
           >Resume <LinkArrow  className={'w-6 ml-1'}/>
           </Link>
           <Link href='mailto:mena.dominic@gmail.com' target={'_blank'}
           className='ml-4 text-lg font-medium capitalize text-dark underline'>Contact</Link>
         </div>
-       <div className='relative right-8 top-20 inline-block w-12 flex flex-row justify-between'>
-        <Image src={jsImg} alt='DominicMena' className='w-full h-auto'/>
-        <Image src={pythonImg} alt='DominicMena' className='w-full h-auto'/>
-        <Image src={htmlImg} alt='DominicMena' className='w-full h-auto'/>
-        <Image src={cssImg} alt='DominicMena' className='w-full h-auto'/>
-        <Image src={mongoImg} alt='DominicMena' className='w-full h-auto'/>
-        <Image src={reactImg} alt='DominicMena' className='w-full h-auto'/>
-        <Image src={nextImg} alt='DominicMena' className='w-full h-auto'/>
+       <div className='relative right-8 top-20 w-12 flex flex-row gap-2'>
+        <Image src={jsImg} alt='javascript' className='w-full h-12'/>
+        <Image src={pythonImg} alt='python' className='w-full h-12'/>
+        <Image src={reactImg} alt='react' className='w-full h-12'/>
+        <Image src={mongoImg} alt='mongodb' className='w-full h-auto'/>
+        <Image src={cssImg} alt='css' className='w-full h-12'/>
+        <Image src={htmlImg} alt='html' className='w-full h-12'/>
+        <Image src={nextImg} alt='next' className='w-full h-auto'/>
        </div>
           </div>
         </div>
