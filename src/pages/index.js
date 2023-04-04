@@ -10,6 +10,8 @@ import cssImg from '../../public/images/svgs/logo-css3.svg'
 import reactImg from '../../public/images/svgs/react-fill.svg'
 import mongoImg from '../../public/images/svgs/mongodb.svg'
 import nextImg from '../../public/images/svgs/next-js.svg'
+import sqlImg from '../../public/images/svgs/postgresql-fill.svg'
+import djangoImg from '../../public/images/svgs/django-fill.svg'
 import AnimatedText from './components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from './components/Icons'
@@ -32,29 +34,35 @@ export default function Home() {
             <Image src={profilePic} alt='DominicMena' className='w-auto h-full'/>
           </div>
           <div className='w-1/2 flex flex-col items-center self-center'>
-            <AnimatedText text='Software Engineer' className='!text-6xl !text-left'/>
+          <AnimatedText text='Dominic Mena' className='!text-left !font-bold !text-4xl' />
+
+            <AnimatedText text='Software  Engineer' className='!text-6xl !text-left'/>
             <p className='my-4 text-base font-medium'>
-          Dominic Mena was born and raised in El, Paso TX - A lifelong learner, he recieved his B.A. in Philosophy from Arizona State and went on to work for DoorDash in it's start-up days - scaling up multiple facets of the company for 5+ years.  When not researching new methods for code; Playing music, going for runs, reading and spending time with my girlfriend are favorite pastimes.
+            Full stack application experience w/ JavaScript, Python, React, REST API, PostgreSQL & more. Committed to creative problem-solving, clear communication, & meticulous attention to detail.
+          {/* Dominic Mena was born and raised in El, Paso TX - A lifelong learner, he recieved his B.A. in Philosophy from Arizona State and went on to work for DoorDash in it's start-up days - scaling up multiple facets of the company for 5+ years.  When not building new coding projects; Writing music, running, & reading are favorite pastimes. */}
         </p>
         <div className='flex items-center self-start mt-2'>
           <Link href='/dummy.pdf' target={'_blank'}
-          className='flex items-center bg-dark text-light p-2.5 px-6
+          className='flex items-center text-light p-2.5 px-6
           rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
           border=2 border-solid border-transparent hover:border-dark
           '
+          style={{ backgroundColor: '#8B0000' }}
           >Resume <LinkArrow  className={'w-6 ml-1'}/>
           </Link>
           <Link href='mailto:mena.dominic@gmail.com' target={'_blank'}
           className='ml-4 text-lg font-medium capitalize text-dark underline'>Contact</Link>
         </div>
-       <div className='relative right-8 top-20 w-12 flex flex-row gap-2'>
+       <div className='relative right-0 top-20 w-12 flex flex-row justify-center gap-2'>
         <Image src={jsImg} alt='javascript' className='w-full h-12'/>
         <Image src={pythonImg} alt='python' className='w-full h-12'/>
         <Image src={reactImg} alt='react' className='w-full h-12'/>
         <Image src={mongoImg} alt='mongodb' className='w-full h-auto'/>
+        <Image src={djangoImg} alt='next' className='w-full h-12'/>
+        <Image src={sqlImg} alt='next' className='w-full h-12'/>
         <Image src={cssImg} alt='css' className='w-full h-12'/>
         <Image src={htmlImg} alt='html' className='w-full h-12'/>
-        <Image src={nextImg} alt='next' className='w-full h-auto'/>
+        <Image src={nextImg} alt='next' className='w-full h-12'/>
        </div>
           </div>
         </div>

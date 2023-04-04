@@ -20,14 +20,14 @@ export const GitIcon = ({ className, ...rest }) => (
 export const CircularText = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="175"
+    width="220"
     height="150"
     viewBox="0 0 496 496"
     xmlSpace="preserve"
     className={`bi bi-envelope-fill w-full h-full ${className}`}
     {...rest}
     >
-   <circle cx="248" cy="248" r="236" fill="none" stroke="#333" stroke-dasharray="1,8" stroke-width="20" />
+    <circle cx="248" cy="248" r="236" fill="none" stroke="#333" stroke-dasharray="3,8" stroke-width="20" />
   </svg>
 );
 
