@@ -6,7 +6,7 @@ import Skills from './components/Skills'
 import Experience from "./components/Experience";
 import { AnimatePresence } from "framer-motion";
 
-const { default: Head } = require("next/head");
+const { default: Head } = require("next/head"); 
 
 const About = () => {
   return (
