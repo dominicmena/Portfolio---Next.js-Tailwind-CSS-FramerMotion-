@@ -4,6 +4,7 @@ import profilePic from '../../public/images/profile/IMG_3565.jpg'
 import Image from "next/image";
 import Skills from './components/Skills'
 import Experience from "./components/Experience";
+import { AnimatePresence } from "framer-motion";
 
 const { default: Head } = require("next/head");
 
@@ -40,7 +41,9 @@ const About = () => {
             </div>
           </div>
           <Skills/>
+          <AnimatePresence>
           <Experience/>
+          </AnimatePresence>
         </Layout>
       </main>
     </>

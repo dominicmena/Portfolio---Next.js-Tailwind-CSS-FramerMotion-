@@ -2,7 +2,7 @@ import React from "react";
 
 import { useScroll } from "framer-motion";
 import { useRef } from "react";
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
   return (
@@ -28,26 +28,24 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
 };
 
 const Experience = () => {
-
   const ref = useRef(null);
 
-  const {scrollYProgress} = useScroll({
+  const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "center start"],
   });
-
   return (
-    console.log({scrollYProgress}),
     <div className="my-64">
       <h2 className="font-bold text-8xl mb-32 w-full text-center">
         Experience
       </h2>
 
       <div ref={ref} className="w-[75%] mx-auto relative">
-
-        <motion.div style={{scaleY: scrollYProgress}} 
         
-        className="absolute left-8 top-0 w-[4px] h-full bg-dark origin-top" />
+        <motion.div
+          style={{ scaleY: scrollYProgress }}
+          className="absolute left-8 top-0 w-[4px] h-full bg-dark origin-top"
+        />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
@@ -92,7 +90,7 @@ const Experience = () => {
           />
         </ul>
       </div>
-  </div>
+    </div>
   );
 };
 
