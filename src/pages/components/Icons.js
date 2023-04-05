@@ -27,7 +27,7 @@ export const CircularText = ({ className, ...rest }) => (
     className={`bi bi-envelope-fill w-full h-full ${className}`}
     {...rest}
     >
-<circle cx="248" cy="248" r="236" fill="none" stroke="#333" stroke-width="20" stroke-dasharray="5,10" />
+<circle cx="248" cy="248" r="236" fill="none" stroke="#333" strokeWidth="20" strokeDasharray="5,10" />
 
   </svg>
 );
