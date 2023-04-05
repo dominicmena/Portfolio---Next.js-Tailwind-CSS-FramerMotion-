@@ -81,15 +81,15 @@ export default function Home() {
                 </Link>
               </div>
               <div className="relative right-0 top-20 w-12 flex flex-row justify-center gap-2">
-                <Image src={jsImg} alt="javascript" className="w-full h-12" />
-                <Image src={pythonImg} alt="python" className="w-full h-12" />
-                <Image src={reactImg} alt="react" className="w-full h-12" />
-                <Image src={mongoImg} alt="mongodb" className="w-full h-auto" />
-                <Image src={djangoImg} alt="next" className="w-full h-12" />
-                <Image src={sqlImg} alt="next" className="w-full h-12" />
-                <Image src={cssImg} alt="css" className="w-full h-12" />
-                <Image src={htmlImg} alt="html" className="w-full h-12" />
-                <Image src={nextImg} alt="next" className="w-full h-12" />
+                <Image src={jsImg} alt="javascript" className="w-full h-12 dark:bg-light" />
+                <Image src={pythonImg} alt="python" className="w-full h-12 dark:bg-light" />
+                <Image src={reactImg} alt="react" className="w-full h-12 dark:bg-light" />
+                <Image src={mongoImg} alt="mongodb" className="w-full h-auto dark:bg-light" />
+                <Image src={djangoImg} alt="next" className="w-full h-12 dark:bg-light" />
+                <Image src={sqlImg} alt="next" className="w-full h-12 dark:bg-light" />
+                <Image src={cssImg} alt="css" className="w-full h-12 dark:bg-light" />
+                <Image src={htmlImg} alt="html" className="w-full h-12 dark:bg-light" />
+                <Image src={nextImg} alt="next" className="w-full h-12 dark:bg-light" />
               </div>
             </div>
           </div>
