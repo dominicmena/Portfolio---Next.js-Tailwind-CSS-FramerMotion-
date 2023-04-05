@@ -24,7 +24,7 @@ const About = () => {
           />
           <div className="grid w-full grid-cols-6 gap-16 items-center">
             <div className="p-20 col-span-3 flex flex-col items-start justify-start">
-              <h2 className="mb-1 mt-4 text-lg font-bold uppercase text-dark/75 dark:text-light">
+              <h2 className="mb-1 mt-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 Biography:
               </h2>
               <p className="my-3 font-medium flex flex-wrap mr-20">
@@ -36,8 +36,8 @@ const About = () => {
                 are favorite pastimes.
               </p>
             </div>
-            <div className="col-span-2 relative h-max rounded-[2rem] border-2 border-solid border-dark bg-light p-9">
-                <div className="absolute top-2 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark"/>
+            <div className="col-span-2 relative h-max rounded-[2rem] border-2 border-solid border-dark bg-light p-9 dark:bg-dark dark:border-light">
+                <div className="absolute top-2 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light"/>
             <Image src={profilePic} alt='Dominic' className='w-full h-auto rounded-2xl'/>
             </div>
           </div>
