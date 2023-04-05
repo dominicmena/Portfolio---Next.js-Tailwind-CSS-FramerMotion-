@@ -16,15 +16,15 @@ const About = () => {
         <title>Dominic Mena | About Page</title> 
         <meta name="description" content="any description" />
       </Head>
-      <main className="flex w-full flex-col items-center justify-center">
+      <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
             text="Always learning, always creating, always improving."
-            className="!mb-2 !text-lg text-center"
+            className="!mb-2 !text-lg text-center dark:text-light"
           />
           <div className="grid w-full grid-cols-6 gap-16 items-center">
             <div className="p-20 col-span-3 flex flex-col items-start justify-start">
-              <h2 className="mb-1 mt-4 text-lg font-bold uppercase text-dark/75">
+              <h2 className="mb-1 mt-4 text-lg font-bold uppercase text-dark/75 dark:text-light">
                 Biography:
               </h2>
               <p className="my-3 font-medium flex flex-wrap mr-20">

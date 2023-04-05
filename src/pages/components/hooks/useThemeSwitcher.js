@@ -31,6 +31,7 @@ useEffect(() => {
         }
     }
 
+    handleChange();
 
     mediaQuery.addEventListener('change', handleChange)
 
