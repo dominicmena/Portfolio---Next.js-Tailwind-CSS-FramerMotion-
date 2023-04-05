@@ -17,6 +17,7 @@ import Link from "next/link";
 import { LinkArrow } from "./components/Icons";
 import Footer from "./components/Footer";
 import HireMe from "./components/HireMe";
+import TransitionEffect from "./components/TransitionEffect";
 
 
 
@@ -31,6 +32,7 @@ export default function Home() {
 
 
       </Head>
+      <TransitionEffect/>
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:p-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
