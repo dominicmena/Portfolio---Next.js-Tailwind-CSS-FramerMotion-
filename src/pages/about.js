@@ -5,6 +5,7 @@ import Image from "next/image";
 import Skills from './components/Skills'
 import Experience from "./components/Experience";
 import { AnimatePresence } from "framer-motion";
+import Education from "./components/Education";
 
 const { default: Head } = require("next/head"); 
 
@@ -41,9 +42,9 @@ const About = () => {
             </div>
           </div>
           <Skills/>
-          <AnimatePresence>
           <Experience/>
-          </AnimatePresence>
+        <Education/>
+
         </Layout>
       </main>
     </>
