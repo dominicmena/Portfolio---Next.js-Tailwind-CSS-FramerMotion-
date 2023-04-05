@@ -44,9 +44,9 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
 
       <span
         className={`
-          h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 
-          ${router.asPath === href ? "w-full" : "w-0"} dark:bg-light
-          `}
+          h-[1px] inline-block bg-light absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 
+          ${router.asPath === href ? "w-full" : "w-0"} 
+          dark:bg-dark`}
       >
         &nbsp;
       </span>
@@ -132,12 +132,14 @@ const NavBar = () => {
         </nav>
       </div>
 
-      {
-        isOpen ?
-        <div
+      {isOpen ? 
+        <motion.div
+        initial={{scale:0, opacity:0, x: "-50%", y: "-50%"}}
+        animate={{scale:1, opacity:1}}
           className="min-w-[70vw] flex flex-col z-30 justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
       bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32
-      ">
+      "
+        >
           <nav className="flex items-center flex-col justify-center">
             <CustomMobileLink
               href="/"
@@ -165,13 +167,13 @@ const NavBar = () => {
             />
           </nav>
 
-          <nav className="flex items-center justify-center flex-wrap">
+          <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
               href="https://github.com/dominicmena"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3"
+              className="w-6 mx-3 sm:mx-1 bg-light rounded-full dark:bg-dark dark:rounded-full"
             >
               <GitIcon />
             </motion.a>
@@ -180,7 +182,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 ml-3"
+              className="w-6 ml-3 bg-light rounded dark:bg-dark sm:mx-1"
             >
               <LinkedInIcon />
             </motion.a>
@@ -198,9 +200,8 @@ const NavBar = () => {
               )}
             </button>
           </nav>
-        </div>
-        : null
-      }
+        </motion.div>
+       : null}
 
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
         <Logo />
