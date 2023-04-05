@@ -32,36 +32,36 @@ export default function Home() {
 
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
-        <Layout className="pt-0">
-          <div className="flex items-center justify-between w-full p-20">
-            <div className="w-1/2">
+        <Layout className="pt-0 md:p-16 sm:pt-8">
+          <div className="flex items-center justify-between w-full lg:flex-col">
+            <div className="w-1/2 md:wd-full">
               <Image
                 src={profilePic}
                 alt="DominicMena"
-                className="w-auto h-full"
+                className="w-auto h-full lg:hidden md:inline-block md:w-full"
                 priority
                 sizes='(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw,
                 50vw'
               />
             </div>
-            <div className="w-1/2 flex flex-col items-center self-center">
+            <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
                 text="Dominic Mena"
-                className="!text-left !font-bold !text-4xl"
+                className="!text-left !font-bold !text-4xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
 
               <AnimatedText
                 text="Software  Engineer"
-                className="!text-6xl !text-left"
+                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-4xl md:!text-3xl sm:!text-2xl"
               />
-              <p className="my-4 text-base font-medium">
+              <p className="my-4 text-base font-medium md:text-md sm:text-sm"> 
                 Full stack application experience w/ JavaScript, Python, React,
                 REST API, PostgreSQL & more. Committed to creative
                 problem-solving, clear communication, & meticulous attention to
                 detail.
               </p>
-              <div className="flex items-center self-start mt-2">
+              <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
                   href="/dummy.pdf"
                   target={"_blank"}
@@ -70,7 +70,7 @@ export default function Home() {
           border=2 border-solid border-transparent hover:border-dark
 
           dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light 
-          hover:dark:border-light
+          hover:dark:border-light md:p-2 md:px-4 md:text-base
           "
                   style={{ backgroundColor: "#8B0000" }}
                 >
@@ -79,12 +79,12 @@ export default function Home() {
                 <Link
                   href="mailto:mena.dominic@gmail.com"
                   target={"_blank"}
-                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light"
+                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
                   Contact
                 </Link>
               </div>
-              <div className="relative right-0 top-20 w-12 flex flex-row justify-center gap-2">
+              <div className="relative right-0 top-20 w-12 flex flex-row justify-center gap-2 md:hidden ">
                 <Image src={jsImg} alt="javascript" className="w-full h-12 dark:bg-light" />
                 <Image src={pythonImg} alt="python" className="w-full h-12 dark:bg-light" />
                 <Image src={reactImg} alt="react" className="w-full h-12 dark:bg-light" />
