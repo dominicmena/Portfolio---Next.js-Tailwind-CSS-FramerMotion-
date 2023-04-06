@@ -11,7 +11,7 @@ const Footer = () => {
                     Built with <span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span>
                     by&nbsp;Dominic Mena
                 </div>
-                <Link href='/'>Say Hello</Link>
+                <Link href='/' className="dark:text-primaryDark">Say Hello</Link>
             </Layout>
         </footer>
      );
