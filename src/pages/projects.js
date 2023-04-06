@@ -132,11 +132,11 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Code today, innovate tomorrow."
-            className="!mb-2 !text-[30px] text-center lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+            text="Code today. innovate  tomorrow."
+            className="!mb-2 !text-4xl text-center lg:!text-7xl sm:mb-8 sm:!text-3xl xs:!text-[35px]"
           />
 
-          <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+          <div className="mt-9 grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 sm:mt-2">
             <div className="col-span-12">
               <FeaturedProject
                 title="Vinyl Shop & Archive"
