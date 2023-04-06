@@ -54,14 +54,17 @@ export default function Home() {
               />
 
               <AnimatedText
-                text="Software  Engineer"
+                text="Software  Engineer / Business Operations "
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-4xl md:!text-3xl sm:!text-[20px] dark:text-primaryDark sm:text-primary"
               />
               <p className="my-4 text-base font-medium md:text-md sm:text-[15px] sm:text-semibold"> 
                 Full stack application experience w/ JavaScript, Python, React,
                 REST API, PostgreSQL & more. Committed to creative
                 problem-solving, clear communication, & meticulous attention to
-                detail.
+                detail. 
+                <br/><br/>
+                In strategy & operations I am skilled in project management, operations management, strategic planning, data analysis, data entry, auditing, Microsoft Excel, data mining, & account management.
+                
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link

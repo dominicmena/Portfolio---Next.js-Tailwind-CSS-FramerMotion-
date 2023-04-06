@@ -163,7 +163,7 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Javascript Game"
+                title="MEAN Stack App"
                 img={project1}
                 link="/"
                 github={"/"}
