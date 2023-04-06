@@ -21,8 +21,8 @@ const About = () => {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Always learning, always creating, always improving."
-            className="!mb-2 !text-lg text-center dark:text-light lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+            text="Create. Learn. Improve."
+            className="!mb-2 !text-lg text-center dark:text-light lg:!text-7xl sm:!text-6xl xs:!text-3xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-6 gap-16 items-center sm:gap-8">
             <div className="p-20 col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">

@@ -45,17 +45,17 @@ const Education = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+            <Details
+              type="Certificate of Completion"
+              time="02 2023 - 04 2023"
+              place="General Assembly"
+              info="Full Stack Developer"
+            />
           <Details
             type="Bachelor of Arts"
             time="08 2013 - 05 2017"
             place="Arizona State University"
             info="Philosophy"
-          />
-          <Details
-            type="Certificate of Completion"
-            time="02 2023 - 04 2023"
-            place="General Assembly"
-            info="Full Stack Developer"
           />
         </ul>
       </div>

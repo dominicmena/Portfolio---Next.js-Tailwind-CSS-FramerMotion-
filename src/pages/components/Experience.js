@@ -63,39 +63,41 @@ const Experience = () => {
             companyLink="https://www.doordash.com/"
             time="Aug 2021 - Dec 2022"
             address="Remote"
-            work="Responsibilities included extracting specific, large data samples related to sales, reconciliations, and consumer reports using SQL queries in MODE. Analyzing the data and providing insights to various stakeholders was also a crucial part of the job. Cross-functional collaboration with account owners ensured a seamless onboarding experience for enterprise merchants. Additionally, commission audits, process gaps, and document improvements were built and scaled by leading projects. To foster merchant relationships and create effective sales strategies, attendance at QBRs with post-sales team members was necessary."
+            work="Responsible for conducting data analysis through writing SQL queries in MODE, collaborating with account owners to ensure smooth merchant onboarding, developing and implementing projects to enhance operational efficiency, and participating in Quarterly Business Reviews (QBRs) with post-sales team members to establish strong relationships with merchants and devise sales strategies.
+            
+            "
           />
           <Details
-            position="Senior Strategy & Operations Associate"
+            position="Lead Merchant Operations Associate"
             company="DoorDash"
             companyLink="https://www.doordash.com/"
-            time="Aug 2021 - Dec 2022"
+            time="Jul 2019 - Aug 2021"
             address="Remote"
-            work="Responsibilities included extracting specific, large data samples related to sales, reconciliations, and consumer reports using SQL queries in MODE. Analyzing the data and providing insights to various stakeholders was also a crucial part of the job. Cross-functional collaboration with account owners ensured a seamless onboarding experience for enterprise merchants. Additionally, commission audits, process gaps, and document improvements were built and scaled by leading projects. To foster merchant relationships and create effective sales strategies, attendance at QBRs with post-sales team members was necessary."
+            work="Established and managed team structure, creating training documents and schedules, conducting team meetings, and tracking metrics. Additionally, I assisted merchants with building menus, resolving logistical issues, and addressing concerns with delivery metrics. I also designed email campaigns based on merchant promotions, increased awareness of new locations and merchants, trained new merchants on platform tools and navigation, and created and built out a team structure including training docs/schedule, team meetings, and setting performance metrics."
           />
           <Details
-            position="Senior Strategy & Operations Associate"
+            position="Non-Partner Launch Lead"
             company="DoorDash"
             companyLink="https://www.doordash.com/"
-            time="Aug 2021 - Dec 2022"
+            time="Mar 2019 - Jul 2019"
             address="Remote"
-            work="Responsibilities included extracting specific, large data samples related to sales, reconciliations, and consumer reports using SQL queries in MODE. Analyzing the data and providing insights to various stakeholders was also a crucial part of the job. Cross-functional collaboration with account owners ensured a seamless onboarding experience for enterprise merchants. Additionally, commission audits, process gaps, and document improvements were built and scaled by leading projects. To foster merchant relationships and create effective sales strategies, attendance at QBRs with post-sales team members was necessary."
+            work="Conducted thorough data verification to ensure accuracy before uploading large amounts of data to the platform, created and streamlined standard processes to work cross-functionally with vendors and stakeholders, facilitated communication between internal teams and vendors to coordinate and meet deadlines, analyzed and provided feedback on team processes to improve efficiency, and monitored and reported on the quality of work provided by third-party vendors."
           />
           <Details
-            position="Senior Strategy & Operations Associate"
+            position="Senior Onboarding Representative"
             company="DoorDash"
             companyLink="https://www.doordash.com/"
-            time="Aug 2021 - Dec 2022"
+            time="Jan 2018 - Mar 2019"
             address="Remote"
-            work="Responsibilities included extracting specific, large data samples related to sales, reconciliations, and consumer reports using SQL queries in MODE. Analyzing the data and providing insights to various stakeholders was also a crucial part of the job. Cross-functional collaboration with account owners ensured a seamless onboarding experience for enterprise merchants. Additionally, commission audits, process gaps, and document improvements were built and scaled by leading projects. To foster merchant relationships and create effective sales strategies, attendance at QBRs with post-sales team members was necessary."
+            work="Managed merchant onboarding by coordinating with Pre-Sales to handle internal data on merchants, addressed menu issues and complaints received through activation team requests, and facilitated the process of partnering with merchants and bringing them onto the platform."
           />
           <Details
-            position="Senior Strategy & Operations Associate"
+            position="Enterprise Menu Team Associate"
             company="DoorDash"
             companyLink="https://www.doordash.com/"
-            time="Aug 2021 - Dec 2022"
+            time="May 2017 - Jan 2018"
             address="Remote"
-            work="Responsibilities included extracting specific, large data samples related to sales, reconciliations, and consumer reports using SQL queries in MODE. Analyzing the data and providing insights to various stakeholders was also a crucial part of the job. Cross-functional collaboration with account owners ensured a seamless onboarding experience for enterprise merchants. Additionally, commission audits, process gaps, and document improvements were built and scaled by leading projects. To foster merchant relationships and create effective sales strategies, attendance at QBRs with post-sales team members was necessary."
+            work="Developed proficiency in SQL to extract menu data and locate specific item information, entered and updated menus efficiently and accurately, paid attention to detail, collaborated with high-level merchants on the platform to coordinate menu roll-outs, and worked across teams to provide top partnered merchants with a positive experience in menu support."
           />
         </ul>
       </div>
