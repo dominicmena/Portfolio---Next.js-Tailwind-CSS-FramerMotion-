@@ -32,7 +32,7 @@ const About = () => {
               <p className="my-3 text-[19px] font-medium flex flex-wrap mr-20 xs:mr-12">
                 Dominic Mena was born and raised in El, Paso TX - A lifelong
                 learner, he recieved his B.A. in Philosophy from Arizona State
-                and went on to work for DoorDash in it's start-up days - scaling
+                and went on to work for DoorDash in its start-up days - scaling
                 up multiple facets of the company for 5+ years. When not
                 building new coding projects; Writing music, running, & reading
                 are favorite pastimes.
