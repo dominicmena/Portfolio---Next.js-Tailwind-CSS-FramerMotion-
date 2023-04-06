@@ -21,7 +21,7 @@ const About = () => {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Create. Learn. Improve."
+            text={`Create. Learn. Improve.`}
             className="!mb-2 !text-5xl text-center dark:text-light lg:!text-7xl sm:!text-6xl xs:!text-3xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-6 gap-16 items-center sm:gap-8">
