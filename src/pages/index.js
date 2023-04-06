@@ -23,7 +23,7 @@ import TransitionEffect from "./components/TransitionEffect";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Home({textContent}) {
   return (
     <>
       <Head>
@@ -49,12 +49,12 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center xs:mt-4 lg:w-full lg:text-center">
               <AnimatedText
-                text={`Dominic Mena`}
+                text={textContent[0]}
                 className="!text-left !font-bold !text-4xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
 
               <AnimatedText
-                text={`Software  Engineer / Business Operations`}
+                text={textContent[1]}
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-4xl md:!text-3xl sm:!text-[20px] dark:text-primaryDark sm:text-primary"
               />
               <p className="my-4 text-base font-medium md:text-md sm:text-[15px] sm:text-semibold"> 
@@ -109,3 +109,4 @@ export default function Home() {
   );
 }
  
+export async function getStaticProps(context){return {props:{textContent:['Dominic Mena', ' Software  Engineer / Business Operations']}}}

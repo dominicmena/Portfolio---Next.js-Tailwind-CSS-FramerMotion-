@@ -28,7 +28,7 @@ const singleWord = {
     }
 }
 
-const AnimatedText = ({ text, className = "" }) => {
+const AnimatedText = ({ text = '', className = "" }) => {
   return (
     <div className="w-full mx-auto py-2 flex items-center justify-center overflow-hidden dark:text-light sm:py-0">
       <motion.h1
