@@ -22,14 +22,14 @@ const About = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Create. Learn. Improve."
-            className="!mb-2 !text-lg text-center dark:text-light lg:!text-7xl sm:!text-6xl xs:!text-3xl sm:mb-8"
+            className="!mb-2 !text-5xl text-center dark:text-light lg:!text-7xl sm:!text-6xl xs:!text-3xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-6 gap-16 items-center sm:gap-8">
-            <div className="p-20 col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
+            <div className="p-15 col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-1 mt-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 Biography:
               </h2>
-              <p className="my-3 font-medium flex flex-wrap mr-20">
+              <p className="my-3 text-[19px] font-medium flex flex-wrap mr-20 xs:mr-12">
                 Dominic Mena was born and raised in El, Paso TX - A lifelong
                 learner, he recieved his B.A. in Philosophy from Arizona State
                 and went on to work for DoorDash in it's start-up days - scaling
