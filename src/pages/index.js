@@ -36,7 +36,7 @@ export default function Home() {
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:p-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="w-1/2 md:wd-full">
+            <div className="w-1/2 md:w-full">
               <Image
                 src={profilePic}
                 alt="DominicMena"
@@ -47,7 +47,7 @@ export default function Home() {
                 50vw'
               />
             </div>
-            <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
+            <div className="w-1/2 flex flex-col items-center self-center xs:mt-4 lg:w-full lg:text-center">
               <AnimatedText
                 text="Dominic Mena"
                 className="!text-left !font-bold !text-4xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
@@ -55,7 +55,7 @@ export default function Home() {
 
               <AnimatedText
                 text="Software  Engineer"
-                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-4xl md:!text-3xl sm:!text-2xl"
+                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-4xl md:!text-3xl sm:!text-[20px] dark:text-primaryDark"
               />
               <p className="my-4 text-base font-medium md:text-md sm:text-sm"> 
                 Full stack application experience w/ JavaScript, Python, React,
@@ -71,7 +71,7 @@ export default function Home() {
           rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
           border=2 border-solid border-transparent hover:border-dark
 
-          dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light 
+          dark:bg-light dark:text-light hover:dark:bg-dark hover:dark:text-light 
           hover:dark:border-light md:p-2 md:px-4 md:text-base
           "
                   style={{ backgroundColor: "#8B0000" }}
