@@ -5,7 +5,9 @@ import AnimatedText from "./components/AnimatedText";
 import Link from "next/link";
 import GitIcon from "./components/Icons";
 import Image from "next/image";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/v2.gif";
+import project2 from "../../public/images/projects/weatherapp.png";
+import project3 from "../../public/images/projects/v2.gif";
 import {motion} from 'framer-motion'
 import TransitionEffect from "./components/TransitionEffect";
 
@@ -58,7 +60,7 @@ lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4
           <Link
             href={link}
             target="_blank"
-            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
+            className="ml-4 rounded-lg bg-primary text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
           >
             {" "}
             Visit Project{" "}
@@ -69,7 +71,7 @@ lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4
   );
 };
 
-const Project = ({ title, type, img, link, github }) => {
+const Project = ({ title, type, img, summary, link, github }) => {
   return (
     <article
       className="w-full flex flex-col items-center justify-center rounded-2xl 
@@ -103,6 +105,7 @@ const Project = ({ title, type, img, link, github }) => {
           className="hover:underline underline-offset-2"
         >
           <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">{title}</h2>
+          <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
         </Link>
         <div className="w-full mt-2 flex items-center justify-between">
           <Link
@@ -139,30 +142,32 @@ const projects = () => {
           <div className="mt-9 grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 sm:mt-2">
             <div className="col-span-12">
               <FeaturedProject
-                title="Vinyl Shop & Archive"
+                title="Vinyl Crate" //"Record Room" - A social app that lets users connect with other vinyl enthusiasts and share their collections. Vinyl Crate An app that helps users organize their vinyl collections, create wishlists, and keep track of their purchases.
+                //
                 img={project1}
-                summary="The vinyl shopping experience of the future"
+                summary="An app that helps users view vinyl on sale, create wishlists, and keep track of their purchases."
                 link="/"
                 github={"/"}
-                type="Featured Project"
+                type="Featured Project (Coming Soon)"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Vinyl Shop & Archive"
-                img={project1}
+                title="WeatherGuru App"
+                img={project2}
                 link="/"
                 github={"/"}
-                type="Featured Project"
+                type="(Coming Soon)"
+                summary='An app that provides users with a comprehensive dashboard of real-time weather data for their selected location.'
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Vinyl Shop & Archive"
+                title="Javascript Game"
                 img={project1}
                 link="/"
                 github={"/"}
-                type="Featured Project"
+                type="(Coming Soon)"
               />
             </div>
           </div>

@@ -55,9 +55,9 @@ export default function Home() {
 
               <AnimatedText
                 text="Software  Engineer"
-                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-4xl md:!text-3xl sm:!text-[20px] dark:text-primaryDark"
+                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-4xl md:!text-3xl sm:!text-[20px] dark:text-primaryDark sm:text-primary"
               />
-              <p className="my-4 text-base font-medium md:text-md sm:text-sm"> 
+              <p className="my-4 text-base font-medium md:text-md sm:text-[15px] sm:text-semibold"> 
                 Full stack application experience w/ JavaScript, Python, React,
                 REST API, PostgreSQL & more. Committed to creative
                 problem-solving, clear communication, & meticulous attention to
@@ -65,7 +65,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/dummy.pdf"
+                  href="/Resume-Dominic-Mena-4624.pdf"
                   target={"_blank"}
                   className="flex items-center text-light p-2.5 px-6
           rounded-lg text-lg font-semibold hover:bg-light hover:text-dark

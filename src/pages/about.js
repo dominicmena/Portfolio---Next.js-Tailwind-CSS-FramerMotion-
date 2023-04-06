@@ -26,7 +26,7 @@ const About = () => {
           />
           <div className="grid w-full grid-cols-6 gap-16 items-center sm:gap-8">
             <div className="p-15 col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
-              <h2 className="mb-1 mt-4 text-lg font-bold uppercase text-dark/75 dark:text-primaryDark/75">
+              <h2 className="mb-1 mt-4 text-lg font-bold uppercase text-primary dark:text-primaryDark/75">
                 Biography:
               </h2>
               <p className="my-3 text-[19px] font-medium flex flex-wrap mr-20 xs:mr-12">
