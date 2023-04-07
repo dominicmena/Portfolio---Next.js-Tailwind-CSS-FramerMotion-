@@ -3,7 +3,7 @@ import React from "react";
 import { useScroll } from "framer-motion";
 import { useRef } from "react";
 import { motion } from "framer-motion";
-import LiIcon from "src/pages/components/LiIcon.js"; 
+import LiIcon from ".LiIcon"; 
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
     const ref = useRef(null)
