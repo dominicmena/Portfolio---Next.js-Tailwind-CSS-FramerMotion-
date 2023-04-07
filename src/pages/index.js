@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import Layout from "./components/Layout";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/d1.jpeg";
+import profilePic from "../../public/images/profile/img662.jpg";
 import pythonImg from "../../public/images/svgs/python-fill.svg";
 import jsImg from "../../public/images/svgs/javascript-fill.svg";
 import htmlImg from "../../public/images/svgs/logo-html5.svg";
@@ -36,7 +36,7 @@ export default function Home({textContent}) {
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:p-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="w-1/2 md:w-full">
+            <div className="w-1/2 pr-8 md:w-full">
               <Image
                 src={profilePic}
                 alt="DominicMena"
@@ -55,7 +55,7 @@ export default function Home({textContent}) {
 
               <AnimatedText
                 text={textContent[1]}
-                className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-4xl md:!text-3xl sm:!text-[20px] dark:text-primaryDark sm:text-primary"
+                className="!text-[20px] !text-primary !text-left xl:!text-3xl lg:!text-center lg:!text-2xl md:!text-2xl sm:!text-[20px] !dark:text-primaryDark sm:text-primary"
               />
               <p className="my-4 text-base font-medium md:text-md sm:text-[15px] sm:text-semibold"> 
                 Full stack application experience w/ JavaScript, Python, React,
