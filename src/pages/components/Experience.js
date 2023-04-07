@@ -3,13 +3,13 @@ import React from "react";
 import { useScroll } from "framer-motion";
 import { useRef } from "react";
 import { motion } from "framer-motion";
-import LiIcon from "./LiIcon"; 
+import Liicon from "./Liicon"; 
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
     const ref = useRef(null)
   return (
       <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]">
-        <LiIcon reference={ref}/>
+        <Liicon reference={ref}/>
       <motion.div
       initial={{y:50}}
       whileInView={{y:0}}
