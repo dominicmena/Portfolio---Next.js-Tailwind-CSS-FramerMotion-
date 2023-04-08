@@ -74,7 +74,7 @@ export default function Home({textContent}) {
           rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
           border=2 border-solid border-transparent hover:border-dark
 
-          dark:bg-light dark:text-light hover:dark:bg-dark hover:dark:text-light 
+          dark:bg-light dark:text-light hover:dark:bg-dark hover:dark:text-light md:max-w-[800px]
           hover:dark:border-light md:p-2 md:px-4 md:text-base
           "
                   style={{ backgroundColor: "#8B0000" }}
