@@ -50,14 +50,14 @@ export default function Home({textContent}) {
             <div className="w-1/2 flex flex-col items-center self-center xs:mt-4 lg:w-full lg:text-center">
               <AnimatedText
                 text={textContent[0]}
-                className="!text-left !font-bold !text-4xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-[34px] xs:!text-[25px] md:pb-3"
+                className="!text-left !font-bold !text-4xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-[30px] sm:!text-[30px] xs:!text-[24px] md:pb-3"
               />
 
               <AnimatedText
                 text={textContent[1]}
-                className="!text-[20px] !text-primary !text-left xl:!text-3xl lg:!text-center lg:!text-2xl md:!text-2xl sm:!text-[25px] xs:!text-[19px] dark:!text-primaryDark sm:text-primaryDark"
+                className="!text-[20px] !text-primary !text-left xl:!text-3xl lg:!text-center lg:!text-[2xl] md:!text-[22px] sm:!text-[25px] xs:!text-[16px] dark:!text-primaryDark sm:text-primaryDark"
               />
-              <p className="my-4 text-base font-medium md:text-md sm:text-[15px] sm:text-semibold"> 
+              <p className="my-4 text-base font-medium md:text-md sm:text-[17px] sm:text-semibold"> 
                 Full stack application experience w/ JavaScript, Python, React,
                 REST API, PostgreSQL & more. Committed to creative
                 problem-solving, clear communication, & meticulous attention to
