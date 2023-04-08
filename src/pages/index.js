@@ -55,7 +55,11 @@ export default function Home({textContent}) {
 
               <AnimatedText
                 text={textContent[1]}
-                className="!text-[20px] !text-primary !text-left xl:!text-3xl lg:!text-center lg:!text-[2xl] md:!text-[22px] sm:!text-[25px] xs:!text-[16px] dark:!text-primaryDark sm:text-primaryDark"
+                className="!text-[20px] !text-primary !text-left xl:!text-3xl lg:!text-center lg:!text-[2xl] md:!text-[22px] sm:!text-[20px] xs:!text-[16px] dark:!text-primaryDark sm:text-primaryDark"
+              />
+                <AnimatedText
+                text={textContent[2]}
+                className="!text-[20px] !text-primary !text-left xl:!text-3xl lg:!text-center lg:!text-[2xl] md:!text-[22px] sm:!text-[20px] xs:!text-[16px] dark:!text-primaryDark sm:text-primaryDark"
               />
               <p className="my-4 text-base font-medium md:text-md sm:text-[17px] sm:text-semibold"> 
                 Full stack application experience w/ JavaScript, Python, React,
@@ -109,4 +113,4 @@ export default function Home({textContent}) {
   );
 }
  
-export async function getStaticProps(context){return {props:{textContent:['Dominic Mena', ' Software  Engineer / Business Operations']}}}
+export async function getStaticProps(context){return {props:{textContent:['Dominic Mena', ' Software  Engineer', 'Business Operations']}}}
