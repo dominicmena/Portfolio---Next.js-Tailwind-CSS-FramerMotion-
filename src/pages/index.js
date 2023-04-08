@@ -79,7 +79,7 @@ export default function Home({textContent}) {
           "
                   style={{ backgroundColor: "#8B0000" }}
                 >
-                  Resume <LinkArrow className={"w-6 ml-1"} />
+                  Resume <LinkArrow className={"w-6 ml-1 md:max-w-[15px]"} />
                 </Link>
                 <Link
                   href="mailto:mena.dominic@gmail.com"
