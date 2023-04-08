@@ -17,11 +17,11 @@ const Details = ({ type, time, place, info }) => {
         initial={{ y: 50 }}
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}>
-        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">{type}</h3>
+        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg text-semibold">{type}</h3>
         <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time} || {place}
         </span>
-        <p className="font-medium dark:text-primaryDark w-full md:text-sm xs:text-[17px]">{info}</p>
+        <p className="font-medium dark:text-primaryDark w-full text-primary md:text-sm xs:text-[17px]">{info}</p>
       </motion.div>
     </li>
   );
