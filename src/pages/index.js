@@ -36,11 +36,11 @@ export default function Home({textContent}) {
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:p-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="w-1/2 pr-8 md:w-full">
+            <div className="w-1/2 pr-8 md:pr-0 md:w-full">
               <Image
                 src={profilePic}
                 alt="DominicMena"
-                className="w-auto h-full lg:hidden md:inline-block md:w-full"
+                className="w-auto h-full lg:hidden md:inline-block md:w-full pb-24 md:pb-12"
                 priority
                 sizes='(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw,
@@ -50,7 +50,7 @@ export default function Home({textContent}) {
             <div className="w-1/2 flex flex-col items-center self-center xs:mt-4 lg:w-full lg:text-center">
               <AnimatedText
                 text={textContent[0]}
-                className="!text-left !font-bold !text-4xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
+                className="!text-left !font-bold !text-4xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-[33px] md:pb-3"
               />
 
               <AnimatedText
