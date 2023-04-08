@@ -103,7 +103,7 @@ export default function Home({textContent}) {
             </div>
           </div>
         </Layout>
-        <HireMe />
+        <HireMe  />
       </main>
     </>
   );
