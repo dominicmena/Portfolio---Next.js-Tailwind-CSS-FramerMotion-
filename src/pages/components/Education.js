@@ -21,7 +21,7 @@ const Details = ({ type, time, place, info }) => {
         <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time} || {place}
         </span>
-        <p className="font-medium dark:text-primaryDark w-full text-primary md:text-sm xs:text-[17px]">{info}</p>
+        <p className="font-medium dark:text-primaryDark w-full text-bold md:text-sm xs:text-[17px]">{info}</p>
       </motion.div>
     </li>
   );
