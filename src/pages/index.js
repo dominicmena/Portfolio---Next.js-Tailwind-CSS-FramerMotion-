@@ -55,7 +55,7 @@ export default function Home({textContent}) {
 
               <AnimatedText
                 text={textContent[1]}
-                className="!text-[20px] !text-primary !text-left xl:!text-3xl lg:!text-center lg:!text-2xl md:!text-2xl sm:!text-[21px] xs:!text-[19px] dark:!text-primaryDark sm:text-primaryDark"
+                className="!text-[20px] !text-primary !text-left xl:!text-3xl lg:!text-center lg:!text-2xl md:!text-2xl sm:!text-[22px] xs:!text-[19px] dark:!text-primaryDark sm:text-primaryDark"
               />
               <p className="my-4 text-base font-medium md:text-md sm:text-[15px] sm:text-semibold"> 
                 Full stack application experience w/ JavaScript, Python, React,
