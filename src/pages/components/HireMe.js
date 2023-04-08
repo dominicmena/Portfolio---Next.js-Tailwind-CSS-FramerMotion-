@@ -4,10 +4,10 @@ import { CircularText } from "./Icons";
 
 const HireMe = () => {
   return (
-    <div className="fixed bottom-16 flex items-center justify-center overflow-hidden md:right-8 md:left-auto md:top-0 md:bottom-auto md:absolute ">
-      <div className="w-48 h-auto flex items-center justify-center relative md:w-24 md:mt-8 ">
+    <div className="fixed bottom-16 flex items-center justify-center overflow-hidden md:right-0 md:left-auto md:top-0 md:bottom-auto md:absolute ">
+      <div className="w-48 h-auto flex items-center justify-center relative md:w-24 md:mt-6 md:h-24">
         <CircularText
-          className={"fill-dark animate-spin-slow dark:fill-light"}
+          className={"fill-dark animate-spin-slow dark:fill-light "}
         />
 
         <Link

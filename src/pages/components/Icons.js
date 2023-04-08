@@ -24,7 +24,7 @@ export const CircularText = ({ className, ...rest }) => (
     height="150"
     viewBox="0 0 496 496"
     xmlSpace="preserve"
-    className={`bi bi-envelope-fill w-full h-full ${className}`}
+    className={`bi bi-envelope-fill w-full h-full ${className} md:max-w-10`}
     {...rest}
     >
 <circle cx="248" cy="248" r="236" fill="none" stroke="#333" strokeWidth="20" strokeDasharray="5,10" className="dark:fill-light"/>
