@@ -140,7 +140,7 @@ const projects = () => {
           />
                     <AnimatedText
             text={`innovate  tomorrow.`}
-            className="!mb-2 !text-4xl text-center lg:!text-2xl sm:mb-8 sm:!text-[20px] xs:!text-[14px]"
+            className="!mb-2 !text-4xl text-center lg:!text-2xl sm:mb-8 sm:!text-[19px] xs:!text-[15px]"
           />
 
           <div className="mt-9 grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 sm:mt-2">
