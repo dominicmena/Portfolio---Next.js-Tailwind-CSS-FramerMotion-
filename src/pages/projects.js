@@ -7,7 +7,7 @@ import GitIcon from "./components/Icons";
 import Image from "next/image";
 import project1 from "../../public/images/projects/v2.gif";
 import project2 from "../../public/images/projects/weatherapp.png";
-import project3 from "../../public/images/projects/v2.gif";
+import project3 from "../../public/images/projects/mernimage.jpeg";
 import {motion} from 'framer-motion'
 import TransitionEffect from "./components/TransitionEffect";
 
@@ -146,13 +146,13 @@ const projects = () => {
           <div className="mt-9 grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 sm:mt-2">
             <div className="col-span-12">
               <FeaturedProject
-                title="Vinyl Crate" //"Record Room" - A social app that lets users connect with other vinyl enthusiasts and share their collections. Vinyl Crate An app that helps users organize their vinyl collections, create wishlists, and keep track of their purchases.
+                title="uVinyl" //"Record Room" - A social app that lets users connect with other vinyl enthusiasts and share their collections. Vinyl Crate An app that helps users organize their vinyl collections, create wishlists, and keep track of their purchases.
                 //
                 img={project1}
-                summary="An app that helps users view vinyl on sale, create wishlists, and keep track of their purchases."
-                link="/"
-                github={"/"}
-                type="Featured Project (Coming Soon)"
+                summary="An Ecommerce app that sells vinyl, allows user registration, profile updates and order history"
+                link="https://uvinyl.vercel.app/"
+                github={"https://github.com/dominicmena/Vinyl-App"}
+                type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -167,8 +167,8 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="MEAN Stack App"
-                img={project1}
+                title="MERN Stack App"
+                img={project3}
                 link="/"
                 github={"/"}
                 type="(Coming Soon)"
