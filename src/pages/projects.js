@@ -5,7 +5,7 @@ import AnimatedText from "./components/AnimatedText";
 import Link from "next/link";
 import GitIcon from "./components/Icons";
 import Image from "next/image";
-import project1 from "../../public/images/projects/v2.gif";
+import project1 from "../../public/images/projects/vinyl2g.gif";
 import project2 from "../../public/images/projects/weatherapp.png";
 import project3 from "../../public/images/projects/mernimage.jpeg";
 import {motion} from 'framer-motion'
@@ -149,7 +149,7 @@ const projects = () => {
                 title="uVinyl" //"Record Room" - A social app that lets users connect with other vinyl enthusiasts and share their collections. Vinyl Crate An app that helps users organize their vinyl collections, create wishlists, and keep track of their purchases.
                 //
                 img={project1}
-                summary="An Ecommerce app that sells vinyl, allows user registration, profile updates and order history"
+                summary="An Ecommerce app that sells vinyl, allows user registration, profile updates and order history. Built with NextJS, MongoDB & Tailwind"
                 link="https://uvinyl.vercel.app/"
                 github={"https://github.com/dominicmena/Vinyl-App"}
                 type="Featured Project"
