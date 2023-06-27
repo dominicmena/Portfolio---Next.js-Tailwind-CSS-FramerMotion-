@@ -5,8 +5,8 @@ import AnimatedText from "./components/AnimatedText";
 import Link from "next/link";
 import GitIcon from "./components/Icons";
 import Image from "next/image";
-import project1 from "../../public/images/projects/vinyl2g.gif";
-import project2 from "../../public/images/projects/weatherapp.png";
+import project1 from "../../public/images/projects/vinyll.gif";
+import project2 from "../../public/images/projects/clip.gif";
 import project3 from "../../public/images/projects/mernimage.jpeg";
 import {motion} from 'framer-motion'
 import TransitionEffect from "./components/TransitionEffect";
@@ -157,7 +157,7 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="WeatherGuru App"
+                title="Recipe API Search App"
                 img={project2}
                 link="/"
                 github={"/"}
