@@ -159,10 +159,10 @@ const projects = () => {
               <Project
                 title="Recipe API Search App"
                 img={project2}
-                link="/"
-                github={"/"}
-                type="(Coming Soon)"
-                summary='An app that provides users with a comprehensive dashboard of real-time weather data for their selected location.'
+                link="https://vuejs-search-meals-murex.vercel.app/"
+                github={"https://github.com/dominicmena/Vue3-Recipe-Search-App"}
+                type="VueJS, Vite, Vuex, Tailwind CSS"
+                summary='An app that provides users with a comprehensive API database of recipes to search from all over the web.'
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
