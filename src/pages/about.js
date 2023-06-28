@@ -1,6 +1,6 @@
 import AnimatedText from "./components/AnimatedText";
 import Layout from "./components/Layout";
-import profilePic from '../../public/images/profile/d1.jpeg'
+import profilePic from '../../public/images/profile/dscf4126.jpg'
 import Image from "next/image";
 import Skills from './components/Skills'
 import Experience from "./components/Experience";
