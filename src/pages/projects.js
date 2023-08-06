@@ -7,7 +7,7 @@ import GitIcon from "./components/Icons";
 import Image from "next/image";
 import project1 from "../../public/images/projects/vinyll.gif";
 import project2 from "../../public/images/projects/clip.gif";
-import project3 from "../../public/images/projects/mernimage.jpeg";
+import project3 from "../../public/images/projects/todo-app.gif";
 import {motion} from 'framer-motion'
 import TransitionEffect from "./components/TransitionEffect";
 
@@ -167,11 +167,12 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="MERN Stack App"
+                title="To-Do Tracker App"
                 img={project3}
-                link="/"
-                github={"/"}
-                type="(Coming Soon)"
+                link="https://to-do-tracker-app.vercel.app/"
+                github={"https://github.com/dominicmena/todo-i4software"}
+                type="React, Redux, Tailwind CSS"
+                summary='An app providing users with a quick and easy way to track their daily tasks'
               />
             </div>
           </div>
