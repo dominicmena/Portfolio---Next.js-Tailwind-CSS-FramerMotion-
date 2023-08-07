@@ -172,7 +172,7 @@ const projects = () => {
                 link="https://to-do-tracker-app.vercel.app/"
                 github={"https://github.com/dominicmena/todo-i4software"}
                 type="React, Redux, Tailwind CSS"
-                summary='An app providing users with a quick and easy way to track their daily tasks'
+                summary='An app providing users with a quick and easy way to track their daily tasks.'
               />
             </div>
           </div>
