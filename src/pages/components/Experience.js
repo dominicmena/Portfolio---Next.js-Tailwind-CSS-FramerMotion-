@@ -57,6 +57,16 @@ const Experience = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+        <Details
+            position="Software Engineer Intern"
+            company="i4Software"
+            companyLink="https://www.doordash.com/"
+            time="Aug 2021 - Dec 2022"
+            address="Remote"
+            work="Responsible for conducting data analysis through writing SQL queries in MODE, collaborating with account owners to ensure smooth merchant onboarding, developing and implementing projects to enhance operational efficiency, and participating in Quarterly Business Reviews (QBRs) with post-sales team members to establish strong relationships with merchants and devise sales strategies.
+            
+            "
+          />
           <Details
             position="Senior Strategy & Operations Associate"
             company="DoorDash"
