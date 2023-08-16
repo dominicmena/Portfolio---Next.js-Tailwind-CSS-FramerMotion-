@@ -60,10 +60,10 @@ const Experience = () => {
         <Details
             position="Software Engineer Intern"
             company="i4Software"
-            companyLink="https://www.doordash.com/"
-            time="Aug 2021 - Dec 2022"
+            companyLink="https://www.i4software.com/"
+            time="July 2023 - Aug 2023"
             address="Remote"
-            work="Responsible for conducting data analysis through writing SQL queries in MODE, collaborating with account owners to ensure smooth merchant onboarding, developing and implementing projects to enhance operational efficiency, and participating in Quarterly Business Reviews (QBRs) with post-sales team members to establish strong relationships with merchants and devise sales strategies.
+            work="Fully immersed in the entire Software Development Life Cycle (SDLC), experiencing each stage firsthand. From gathering requirements and creating designs to coding, testing, and deploying the apps, I was involved in every step of the process. Collaborating with experienced product managers and software engineers allowed me to continuously learn industry best practices and expand my programming skills. Contributing to real-world projects and witnessing the impact of our work was truly rewarding.
             
             "
           />
