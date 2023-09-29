@@ -33,8 +33,9 @@ const About = () => {
                 Dominic Mena was born and raised in El, Paso TX - A lifelong
                 learner, he recieved his B.A. in Philosophy from Arizona State
                 and went on to work for DoorDash in its start-up days - scaling business operations
-                & multiple facets of the company for 5+ years. When not
-                building new coding projects, I love to write music, run, & read!
+                & multiple facets of the company for 5+ years!
+                
+                When not building new coding projects, I love to write music, run, & read!  
               </p>
             </div>
             <div className="col-span-2 relative h-max rounded-[2rem] border-2 border-solid border-dark bg-light p-9 dark:bg-dark dark:border-light xl:col-span-2 md:order-1 md:col-span-8">
