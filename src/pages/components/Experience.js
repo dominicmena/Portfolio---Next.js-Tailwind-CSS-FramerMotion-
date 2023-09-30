@@ -58,6 +58,17 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
         <Details
+            position="Associate Engineer - Solutions"
+            company="Innovative-e"
+            companyLink="https://innovative-e.com/"
+            time="Aug 2023 - Present"
+            address="Remote"
+            work="Responsible for developing, troubleshooting, fixing, and enhancing SaaS based solutions and applications for customer facing projects. Impacts include: create and maintain User Acceptance Test scripts for customer solutions
+, take direction from Technical Lead on project tasks, & provide daily task and progress updates to Project Manager and Technical Lead.
+            
+            "
+          />
+        <Details
             position="Software Engineer Intern"
             company="i4Software"
             companyLink="https://www.i4software.com"
